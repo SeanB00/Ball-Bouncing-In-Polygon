@@ -1,6 +1,7 @@
 This is a simple simulation of a ball boncing in the a polygon.
 The simulation runs at 60 FPS and uses relfection by flipping the norm factor (fourier term).
 The formula for the reflected velocity (rv) over the reflected surface (s) is produced by:  
+
   v = <v, s>*s + <v,norm>*norm
   
   rv = <v, s>*s  - <v,norm>*norm  (the factor is reflected)
